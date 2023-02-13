@@ -1,0 +1,29 @@
+.mission {
+    display: flex;
+    column-gap: 142px;
+    margin-bottom: 120px;
+
+    @media(max-width:1439px){
+        column-gap: 20px;
+    }
+
+    @media(max-width:1023px){
+        display: block;
+        margin-bottom: 30px;
+
+    }
+}
+.mission-img {
+}
+.mission-text {
+
+}
+.text-title {
+    max-width: 487px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.text-subtitle {
+    max-width: 708px;
+}
